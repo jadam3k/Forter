@@ -23,8 +23,7 @@ I made this because im running out of MCU's lol
 
 ERRORS
 
-THEY ARE JUST TERMICAL SO CHILL - it won't burn
-<img width="740" height="191" alt="image" src="https://github.com/user-attachments/assets/97226c06-39e6-4d84-b96f-85ff779d8189" />
+two termical errors but that will work
 
 ## Wiring Diagram
 <img width="3507" height="2480" alt="image" src="https://github.com/user-attachments/assets/65eabff0-bc57-41ff-abe5-297fa7da0f88" />
