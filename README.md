@@ -2,7 +2,7 @@
 
 ## Overview
 This project is a fully designed Microcontroller made with ESP32-S3. it has got 20 IO pins with ESP32 mapping so you can map them, and 4 power pins with gnd. Project also includes 4 mouting holes for screwdriwers with thermical protection
-
+No filmware needed
 ## Why I Made This
 I made this because im running out of MCU's lol
 
