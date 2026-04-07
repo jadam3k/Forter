@@ -43,25 +43,24 @@ This repository contains everything needed to review and reproduce the project:
 ## How to flash ESP32-S3
 You dont have to do anything. use arduinoIDE
 
-## Bill of Materials
+
 
 ## BOM
 
 | Name | Purpose | Quantity | Total Cost (USD) | Link | Distributor |
-|------|--------|----------|------------------|------|-------------|
-| PCB | PCB (i can't send link for PCB for JLCPCB) | 5 | 2.00 | https://plainraw.com/raw/e9d4483de526 | JLCPCB |
-| 5.1kΩ ±1% 125mW | Resistor CC1/CC2 | 100 | 0.24 | https://www.lcsc.com/product-detail/C27834.html | LCSC |
-| 27Ω ±0.25% 100mW Resistor | Impedance Match | 10 | 0.36 | https://www.lcsc.com/product-detail/C5266071.html | LCSC |
-| Crystal 12MHz | Crystal for stable MCU operation | 5 | 1.18 | https://www.lcsc.com/product-detail/C2901628.html | LCSC |
-| W25Q128JVSIM TR | Flash memory | 1 | 3.58 | https://www.lcsc.com/product-detail/C401671.html | LCSC |
-| AMS1117-3.3 | 5V to 3.3V regulator | 5 | 1.13 | https://www.lcsc.com/product-detail/C6186.html | LCSC |
-| C2040 | MCU | 1 | 0.95 | https://www.lcsc.com/product-detail/C2040.html | LCSC |
-| 1kΩ 125mW 150V Resistor | Resistor for crystal | 100 | 0.25 | https://www.lcsc.com/product-detail/C95781.html | LCSC |
-| USB-C | USB-C for power and data | 5 | 0.92 | https://www.lcsc.com/product-detail/C165948.html | LCSC |
-| 10uF ±10% 50V Ceramic Capacitor | Used around AMS1117-3.3 | 5 | 0.24 | https://www.lcsc.com/product-detail/C2932476.html | LCSC |
-| 18pF ±5% 50V Ceramic Capacitor | Used with crystal | 100 | 0.67 | https://www.lcsc.com/product-detail/C113825.html | LCSC |
-| 100nF ±10% 50V Ceramic Capacitor X7R 0805 | Decoupling capacitors | 50 | 0.31 | https://www.lcsc.com/product-detail/C1711.html | LCSC |
-| 1uF ±10% 50V Ceramic Capacitor | Decoupling capacitors | 20 | 0.28 | https://www.lcsc.com/product-detail/C28323.html | LCSC |
+|------|--------|----------|------------------|------|------------|
+| AMS1117 | 5V to 3.3V regulator | 5 | 1.13 | https://www.lcsc.com/product-detail/C6186.html | LCSC |
+| PCB | PCB manufacturing | 5 | 2.00 | — | JLCPCB |
+| ESP32-S3-WROOM-1-N8 | Main microcontroller | 1 | 4.79 | https://www.lcsc.com/product-detail/C2913198.html | LCSC |
+| 100mW 240Ω 75V Resistor | LED current limiting | 100 | 0.16 | https://www.lcsc.com/product-detail/C114629.html | LCSC |
+| 100mW 10kΩ 75V | Pull-up / general use | 100 | 0.14 | https://www.lcsc.com/product-detail/C98220.html | LCSC |
+| 5.1kΩ ±1% 100mW 0603 Resistor | USB-C configuration | 100 | 0.12 | https://www.lcsc.com/product-detail/C2907044.html | LCSC |
+| 22Ω ±1% 100mW 0603 Resistor | Signal lines (e.g. USB) | 100 | 0.13 | https://www.lcsc.com/product-detail/C23345.html | LCSC |
+| USB-C Conn | Power + data connector | 5 | 0.84 | https://www.lcsc.com/product-detail/C165948.html | LCSC |
+| Emerald Green LED DIODE | Power indication | 100 | 0.51 | https://www.lcsc.com/product-detail/C965804.html | LCSC |
+| 1uF ±10% 50V Ceramic Capacitor | Decoupling | 50 | 0.39 | https://www.lcsc.com/product-detail/C15849.html | LCSC |
+| 100nF ±10% 50V Ceramic Capacitor | Decoupling | 200 | 0.64 | https://www.lcsc.com/product-detail/C14663.html | LCSC |
+| 10uF ±10% 10V Ceramic Capacitor | Bulk capacitance | 50 | 0.40 | https://www.lcsc.com/product-detail/C19702.html | LCSC |
 
 Additionally (things I already have at home: Buttons and pins. I didn’t include them because I can’t add items on the stasis site that I don’t want to receive grant for.
 
